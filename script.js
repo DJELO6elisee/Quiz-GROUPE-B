@@ -18,6 +18,5 @@ function afficherResultats() {
         document.body.style.backgroundColor = "yellow";
     } else {
         document.body.style.backgroundColor = "green";
-        console.log("Fond rouge appliqué");
     }
 }
