@@ -58,13 +58,13 @@ function afficherResultats() {
     
     // Changement du background en fonction du taux de réussite
     if (tauxReussite < 50) {
-        document.body.style.backgroundColor = "green";
+        document.body.style.backgroundColor = "red";
         console.log("Fond vert appliqué");
     } else if (tauxReussite < 75) {
         document.body.style.backgroundColor = "yellow";
         console.log("Fond jaune appliqué");
     } else {
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "green";
         console.log("Fond rouge appliqué");
     }
 }
